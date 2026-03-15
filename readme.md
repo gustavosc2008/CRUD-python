@@ -1,36 +1,45 @@
-CRUD Básico em Python (JSON)
+*CRUD Básico em Python (JSON)*
+
 Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido em Python, utilizando um arquivo JSON como forma de armazenamento.
 A ideia inicial era criar um sistema básico sem depender de banco de dados externos, apenas com leitura e escrita em arquivo.
 
-Contexto
+**CONTEXTO**
+
 Este projeto começou há algum tempo como um rascunho incompleto. A proposta era ter um CRUD funcional, mas só parte dele havia sido implementada.
 Recentemente decidi retomar e concluir o projeto, deixando-o funcional e pronto para uso como exemplo de estudo.
 
-Funcionalidades
-Criar registros (nome e idade).
+**FUNCIONALIDADES**
+1. Criar registros (nome e idade).
 
-Listar todos os registros salvos.
+2. Listar todos os registros salvos.
 
-Atualizar registros existentes pelo ID.
+3. Atualizar registros existentes pelo ID.
 
-Deletar registros pelo ID.
+4. Deletar registros pelo ID.
 
-Interface simples via menu no terminal.
+5. Interface simples via menu no terminal.
 
-Como funciona
-Os dados são armazenados em um arquivo dados.json.
+**COMO FUNCIONA**
 
-Cada registro possui:
+1. Os dados são armazenados em um arquivo dados.json.
 
-id (gerado automaticamente)
 
-nome
+2. Cada registro possui:
 
-idade
 
-O programa apresenta um menu interativo para inserir e gerenciar os registros.
+3. id (gerado automaticamente)
 
-***Como executar***
+
+4. nome
+
+
+5. idade
+
+
+6. O programa apresenta um menu interativo para inserir e gerenciar os registros.
+
+
+***COMO EXECUTAR***
 
 git clone <url do repositorio>
 no terminal, execute main.py
