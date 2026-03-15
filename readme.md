@@ -30,7 +30,7 @@ idade
 
 O programa apresenta um menu interativo para inserir e gerenciar os registros.
 
-**Como executar**
+***Como executar***
 
 git clone <url do repositorio>
 no terminal, execute main.py
